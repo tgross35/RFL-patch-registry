@@ -17,25 +17,34 @@ Usual status options are:
   experimentation and may have RFL review, but does not have review
   by relevant maintainers.
 - `experimental`: this patchset is a work in progress.
+- `abandoned`: not recently maintained
 
 Note that things change frequently and the mailing list links may not always
 be the latest.
 
-| Target Area | Status | Author | Source Link | Mailing List Link |
+| Target Area | Status | Author | Git Link | Mailing List Link |
 |---|---|---|---|---|
 | crypto | RFC | Tomo | | https://lore.kernel.org/rust-for-linux/20230615142311.4055228-1-fujita.tomonori@gmail.com/ |
 | DRM | RFC | Lina | | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ | 
+| ethernet | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1014 | |
 | vfs | RFC | Wedson | | https://lore.kernel.org/rust-for-linux/20231018122518.128049-1-wedsonaf@gmail.com/#t |
 | files | RFC | Alice + Wedson | | https://lore.kernel.org/rust-for-linux/20230720152820.3566078-1-aliceryhl@google.com/ |
 | mm | | Alice + Wedson | https://github.com/Darksonn/linux/commit/7ba95d4fc5a8442ef5eb428b64109116717f7e47 | |
+| napi | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1018 | |
+| net_device | RFC | Tomo | | https://lore.kernel.org/netdev/20230613045326.3938283-1-fujita.tomonori@gmail.com/ |
 | null block | RFC | Andreas | | https://lore.kernel.org/rust-for-linux/20230503090708.2524310-1-nmi@metaspace.dk/ |
 | phy | review | Tomo | | https://lore.kernel.org/rust-for-linux/20231026001050.1720612-1-fujita.tomonori@gmail.com/ | 
 | puzzlefs | RFC | Ariel | | https://lore.kernel.org/rust-for-linux/20230726164535.230515-1-amiculas@cisco.com/ |
+| ramfs | abandoned | Fox | https://github.com/Rust-for-Linux/linux/pull/409 | |
 | rbtree | | | https://github.com/Darksonn/linux/commit/edb94cbf99f6d35bca05e052e997542f07c085ab | |
-| scatterlist | RFC | | | https://lore.kernel.org/rust-for-linux/20230610104909.3202958-1-changxian.cqs@antgroup.com/ |
+| scatterlist | RFC | Fox | | https://lore.kernel.org/rust-for-linux/20230610104909.3202958-1-changxian.cqs@antgroup.com/ |
+| sk_buf | RFC | Tomo | | https://lore.kernel.org/netdev/20230613045326.3938283-1-fujita.tomonori@gmail.com/ |
 | socket | RFC | Michele | | https://lore.kernel.org/rust-for-linux/20230814092302.1903203-1-dallerivemichele@gmail.com/ |
+| spi | testing | Esteban | https://github.com/Rust-for-Linux/linux/pull/264 | |
+| thread | testing | Boqun | https://github.com/Rust-for-Linux/linux/pull/109 | |
 | workqueue | merged | Alice | https://elixir.bootlin.com/linux/v6.7-rc1/source/rust/kernel/workqueue.rs | https://lore.kernel.org/rust-for-linux/20230828104807.1581592-1-aliceryhl@google.com/ |
 | v4l2 | review | Daniel | | https://lore.kernel.org/rust-for-linux/20230406215615.122099-1-daniel.almeida@collabora.com/ |
 | xarray | RFC | Lina | | https://lore.kernel.org/rust-for-linux/20230224-rust-xarray-v3-1-04305b1173a5@asahilina.net/ |
 
 
+<!-- | | | | | | -->
