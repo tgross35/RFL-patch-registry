@@ -27,7 +27,7 @@ be the latest.
 | DRM | RFC | Lina | | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ | 
 | vfs | RFC | Wedson | | https://lore.kernel.org/rust-for-linux/20231018122518.128049-1-wedsonaf@gmail.com/#t |
 | files | RFC | Alice + Wedson | | https://lore.kernel.org/rust-for-linux/20230720152820.3566078-1-aliceryhl@google.com/ |
-| mm | Alice + Wedson | | https://github.com/Darksonn/linux/commit/7ba95d4fc5a8442ef5eb428b64109116717f7e47 | |
+| mm | | Alice + Wedson | https://github.com/Darksonn/linux/commit/7ba95d4fc5a8442ef5eb428b64109116717f7e47 | |
 | null block | RFC | Andreas | | https://lore.kernel.org/rust-for-linux/20230503090708.2524310-1-nmi@metaspace.dk/ |
 | phy | review | Tomo | | https://lore.kernel.org/rust-for-linux/20231026001050.1720612-1-fujita.tomonori@gmail.com/ | 
 | puzzlefs | RFC | Ariel | | https://lore.kernel.org/rust-for-linux/20230726164535.230515-1-amiculas@cisco.com/ |
