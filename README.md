@@ -28,6 +28,7 @@ be the latest.
 | debugfs | testing | Adam | https://github.com/Rust-for-Linux/linux/pull/885 | |
 | debugfs | experimental | Fabien | https://github.com/Rust-for-Linux/linux/pull/1041 | |
 | delay | testing | Tomo | https://github.com/Rust-for-Linux/linux/pull/920 | |
+| device | experimental | Gary | https://github.com/nbdd0121/linux/tree/device | |
 | dma | testing | Tomo | https://github.com/Rust-for-Linux/linux/pull/901 | |
 | drm | RFC | Lina | | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ |
 | ethernet | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1014 | |
