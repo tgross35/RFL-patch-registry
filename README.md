@@ -29,6 +29,7 @@ be the latest.
 | debugfs | experimental | Fabien | https://github.com/Rust-for-Linux/linux/pull/1041 | |
 | delay | testing | Tomo | https://github.com/Rust-for-Linux/linux/pull/920 | |
 | device | experimental | Gary | https://github.com/nbdd0121/linux/tree/device | |
+| driver | experimental | Martin, Wedson | https://github.com/YakoYakoYokuYoku/linux/commit/36d63c70f80c1f4486423d75dcc5f4b890b10dd4 | |
 | dma | testing | Tomo | https://github.com/Rust-for-Linux/linux/pull/901 | |
 | drm | RFC | Lina | | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ |
 | ethernet | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1014 | |
@@ -38,7 +39,7 @@ be the latest.
 | io_pgtable | testing | Lina | https://github.com/Rust-for-Linux/linux/pull/952/commits/f476b2b052165a40eed0a8fcb86b56f794ee62d8 | |
 | io_resource | testing | Maciej | https://github.com/Rust-for-Linux/linux/pull/682 | |
 | jiffies | testing | Maria | https://github.com/Rust-for-Linux/linux/pull/982 | |
-| mm | | Alice + Wedson | https://github.com/Darksonn/linux/commit/7ba95d4fc5a8442ef5eb428b64109116717f7e47 | |
+| mm | | Alice, Wedson | https://github.com/Darksonn/linux/commit/7ba95d4fc5a8442ef5eb428b64109116717f7e47 | |
 | napi | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1018 | |
 | net_device | RFC | Tomo | | https://lore.kernel.org/netdev/20230613045326.3938283-1-fujita.tomonori@gmail.com/ |
 | null block | RFC | Andreas | | https://lore.kernel.org/rust-for-linux/20230503090708.2524310-1-nmi@metaspace.dk/ |
