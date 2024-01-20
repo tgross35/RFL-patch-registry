@@ -1,8 +1,15 @@
-# RFL Patch Registry
+# RFL Patch & Project Registry
 
 This is an attempt to aggregate Rust abstractions for Linux that have not yet
 been upstreamed, as well as some leaf drivers and some other works in
 progress.
+
+Toward the bottom, there is a list of possible projects for anyone looking to
+pick something up.
+
+PRs or issues are welcome for any additions or fixes!
+
+## Patches
 
 Usual status options are:
 - `merged`: this patch has been merged to upstream and is usable in
@@ -104,3 +111,32 @@ If what you need still isn't listed here, take a look at these trees:
 - https://github.com/Rust-for-Linux/linux/tree/rust is the experimental tree
   used before merging into mainline. A lot of experimental bindings are
   available there.
+
+# Project Board
+
+Below is a small list of larger projects that may be wanted in-tree. Before
+starting any work, drop by [on Zulip](https://rust-for-linux.zulipchat.com/)
+or at the mailing list to see if anybody is working on it already.
+
+| Area | Task | Discussion | Notes |
+|---|---|---|---|
+| fs | ext2 file system | https://rust-for-linux.zulipchat.com/#narrow/stream/288089-General/topic/ext2.20filesystem, https://rust-for-linux.zulipchat.com/#narrow/stream/288089-General/topic/open.20Github.20issues.20are.20nearly.20all.20merged.20and.20solved.2E, https://lwn.net/Articles/952029/ | Reply to the Zulip topic if interested, this may wind up being a collaboration |
+| graphics | rewrite the Nouveau driver in Rust | https://rust-for-linux.zulipchat.com/#narrow/stream/288089-General/topic/Nouveau.20in.20LWN, https://lwn.net/Articles/953144/| Reply to the Zulip topic if interested |
+| phy | Microchip VSC825{4,6,7,8} phy driver |  | Open a Zulip topic and tag Shashwat and Trevor if interested (or email the list) |
+| phy | other phys |  | Any phys that are not yet supported by the kernel may be willing to accept Rust drivers |
+| tc | ? |  | Traffic control expressed interest in using Rust, need to figure out exactly where... |
+
+Aside from these larger projects, there are other ways to get involved:
+
+- Work on issues listed in the GitHub tracker:
+  <https://github.com/Rust-for-Linux/linux/issues>.
+- Provide reviews on the mailing list.
+- Build and test mailing list patchsets.
+- Support development of ecosystem tools (rustc, rustdoc, bindgen, etc.). RFL
+  tracks some wanted features in GitHub meta issues:
+  <https://github.com/Rust-for-Linux/linux/issues?q=is%3Aissue+is%3Aopen+wanted+features+label%3Ameta>
+- Reach out to hardware manufacturers and see if they are interested in new
+  drivers.
+- Help get Rust support working and tested on more platforms.
+- Write about RFL. Tutorials and good documentation help lower the barrier to
+  entry.
