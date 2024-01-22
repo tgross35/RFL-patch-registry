@@ -9,7 +9,7 @@ pick something up.
 
 PRs or issues are welcome for any additions or fixes!
 
-## Patches
+## Patches and Ongoing Projects
 
 Usual status options are:
 - `merged`: this patch has been merged to upstream and is usable in
@@ -113,7 +113,7 @@ If what you need still isn't listed here, take a look at these trees:
   used before merging into mainline. A lot of experimental bindings are
   available there.
 
-# Project Board
+## Project Idea Board
 
 Below is a small list of larger projects that may be wanted in-tree. Before
 starting any work, drop by [on Zulip](https://rust-for-linux.zulipchat.com/)
