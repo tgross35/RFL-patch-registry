@@ -59,10 +59,12 @@ issues are welcome if you notice something out of sync.
 | drm | RFC | Lina | | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ | `6.3-rc1` |
 | drm-asahi (apple Si) | RFC | Lina, Alyssa R. | https://github.com/AsahiLinux/linux/tree/asahi/drivers/gpu/drm/asahi | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ (in links) | `6.6` |
 | drm-nova (nouveau rewrite) | experimental | Danilo K., Dave A. | https://gitlab.freedesktop.org/dakr/nova | | |
+| drm-panel, drm-dsi | experimental | Fabien P. | https://github.com/Fabo/linux/tree/fparent/rust-truly-r63350 | | `rust-dev` |
 | ethernet | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1014 | | `rust` |
 | file, misc | RFC | Alice R., Wedson AF. | | https://lore.kernel.org/rust-for-linux/20230720152820.3566078-1-aliceryhl@google.com/ | `rust-next` |
 | file, misc | review | Alice, Wedson AF. | | https://lore.kernel.org/rust-for-linux/20240118-alice-file-v3-0-9694b6f9580c@google.com/ | `rust-6.8` |
 | fwnode | testing | Vinay V. | https://github.com/Rust-for-Linux/linux/pull/925 | | `rust` |
+| gpiod/consumer | experimental | Fabien P. | https://github.com/Fabo/linux/commit/bb525ee7ae4fc0b352442a4853f41d213edd5d30 | | `rust-dev` |
 | i2c | testing | Finn B. | https://github.com/Rust-for-Linux/linux/pull/946 | | `rust` |
 | i2c | experimental | Fabien P. | https://github.com/Fabo/linux/tree/fparent/rust-i2c | | `rust-next` |
 | io_pgtable | testing | Lina | https://github.com/Rust-for-Linux/linux/pull/952/commits/f476b2b052165a40eed0a8fcb86b56f794ee62d8 | | `rust-next` |
@@ -83,6 +85,7 @@ issues are welcome if you notice something out of sync.
 | rbtree | testing | | https://github.com/Darksonn/linux/commit/edb94cbf99f6d35bca05e052e997542f07c085ab | | |
 | regmap | experimental | Fabien P. | https://github.com/Fabo/linux/tree/fparent/rust-regmap-dev | | |
 | regulator/consumer | experimental | Fabien P. | https://github.com/Rust-for-Linux/linux/pull/1040 | | `rust-dev` |
+| regulator/driver | experimental | Fabien P. | https://github.com/Fabo/linux/commit/95360c6903e3fe948650a30268bbc9e6fd4b7af7 | | `rust-dev` |
 | reset | testing | Nikos M. | https://github.com/Rust-for-Linux/linux/pull/933 | | `rust` |
 | rtkit (apple) | testing | Lina | https://github.com/Rust-for-Linux/linux/pull/952/commits/f7708d02efab0d96e56f78d7e6dfa56adc948ef4 | | `rust-next` |
 | scatterlist | RFC | Fox C. | | https://lore.kernel.org/rust-for-linux/20230610104909.3202958-1-changxian.cqs@antgroup.com/ | |
