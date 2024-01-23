@@ -149,3 +149,6 @@ in the kernel and externally:
 - Help get Rust support working and tested on more platforms.
 - Write about RFL. Tutorials and good documentation help lower the barrier to
   entry.
+
+See <https://rust-for-linux.com/contributing> for some more complete
+information and other ideas.
