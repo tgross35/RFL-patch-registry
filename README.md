@@ -127,7 +127,7 @@ or at the mailing list to see if anybody is working on it already.
 | fs | ext2 file system | https://rust-for-linux.zulipchat.com/#narrow/stream/288089-General/topic/ext2.20filesystem, https://rust-for-linux.zulipchat.com/#narrow/stream/288089-General/topic/open.20Github.20issues.20are.20nearly.20all.20merged.20and.20solved.2E, https://lwn.net/Articles/952029/ | Reply to the Zulip topic if interested, this may wind up being a collaboration |
 | phy | Microchip VSC825{4,6,7,8} phy driver |  | Open a Zulip topic and tag Shashwat and Trevor if interested (or email the list) |
 | phy | other phys |  | Any phys that are not yet supported by the kernel may be willing to accept Rust drivers |
-| tc | ? | https://lore.kernel.org/rust-for-linux/CALNs47v8x8RsV=EOKQnsL3RFycbY9asrq9bBV5z-sLjYYy+AVw@mail.gmail.com/ | Traffic control expressed interest in using Rust, no specific projects yet. |
+| tc | write tc actions | https://lore.kernel.org/rust-for-linux/CALNs47v8x8RsV=EOKQnsL3RFycbY9asrq9bBV5z-sLjYYy+AVw@mail.gmail.com/ | Traffic control expressed some interest in using Rust and suggested actions as a place to start (see the lore link) |
 
 Aside from these larger projects, there are other ways to get involved both
 in the kernel and externally:
