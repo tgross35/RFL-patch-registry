@@ -80,7 +80,6 @@ issues are welcome if you notice something out of sync.
 | phy | merged | Tomo F. | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/rust/kernel/net/phy.rs | https://lore.kernel.org/rust-for-linux/20231026001050.1720612-1-fujita.tomonori@gmail.com/ | merged |
 | platform | testing | Rust GH | https://github.com/Rust-for-Linux/linux/blob/rust/rust/kernel/platform.rs | | `rust` |
 | pm_runtime | testing | Maciej F. | https://github.com/Rust-for-Linux/linux/pull/700 | | `rust` |
-| puzzlefs | RFC | Ariel M. | | https://lore.kernel.org/rust-for-linux/20230726164535.230515-1-amiculas@cisco.com/ | `puzzlefs_dependencies` |
 | ramfs | abandoned | Fox C. | https://github.com/Rust-for-Linux/linux/pull/409 | | `rust` |
 | rbtree | testing | | https://github.com/Darksonn/linux/commit/edb94cbf99f6d35bca05e052e997542f07c085ab | | |
 | regmap | experimental | Fabien P. | https://github.com/Fabo/linux/tree/fparent/rust-regmap-dev | | |
@@ -103,6 +102,9 @@ issues are welcome if you notice something out of sync.
 | workqueue | merged | Alice R. | https://elixir.bootlin.com/linux/v6.7/source/rust/kernel/workqueue.rs | https://lore.kernel.org/rust-for-linux/20230828104807.1581592-1-aliceryhl@google.com/ | merged |
 | v4l2 | review | Daniel A. | | https://lore.kernel.org/rust-for-linux/20230406215615.122099-1-daniel.almeida@collabora.com/ | `rust` |
 | vfs | RFC | Wedson AF. | | https://lore.kernel.org/rust-for-linux/20231018122518.128049-1-wedsonaf@gmail.com/#t | |
+| vfs, ext2 | experimental | Wedson AF. | https://github.com/wedsonaf/linux/commits/ext2fs/ | | `6.7-rc5` |
+| vfs, ext2 | experimental | Tomo F. | https://github.com/fujita/linux/tree/ext2-rust/fs/ext2rust | | `6.8-rc1` |
+| vfs, puzzlefs | RFC | Ariel M. | | https://lore.kernel.org/rust-for-linux/20230726164535.230515-1-amiculas@cisco.com/ | `puzzlefs_dependencies` |
 | xarray | RFC | Maíra C., Lina | | https://lore.kernel.org/rust-for-linux/ZacW_e1mnNi6hT7M@boqun-archlinux/T/#m7231cc4d238de3930f1092dd1ab123c4ffe2315a | `rust-next` |
 | apple misc items | testing | Lina | https://github.com/Rust-for-Linux/linux/pull/964 | | `rust-next` |
 | C+Rust kbuild system | experimental | Miguel O. | not yet published | | |
@@ -124,7 +126,6 @@ or at the mailing list to see if anybody is working on it already.
 
 | Area | Task | Discussion | Notes |
 |---|---|---|---|
-| fs | ext2 file system | https://rust-for-linux.zulipchat.com/#narrow/stream/288089-General/topic/ext2.20filesystem, https://rust-for-linux.zulipchat.com/#narrow/stream/288089-General/topic/open.20Github.20issues.20are.20nearly.20all.20merged.20and.20solved.2E, https://lwn.net/Articles/952029/ | Reply to the Zulip topic if interested, this may wind up being a collaboration |
 | phy | Microchip VSC825{4,6,7,8} phy driver |  | Open a Zulip topic and tag Shashwat and Trevor if interested (or email the list) |
 | phy | other phys |  | Any phys that are not yet supported by the kernel may be willing to accept Rust drivers |
 | tc | write tc actions | https://lore.kernel.org/rust-for-linux/CALNs47v8x8RsV=EOKQnsL3RFycbY9asrq9bBV5z-sLjYYy+AVw@mail.gmail.com/ | Traffic control expressed some interest in using Rust and suggested actions as a place to start (see the lore link) |
