@@ -126,6 +126,7 @@ or at the mailing list to see if anybody is working on it already.
 
 | Area | Task | Discussion | Notes |
 |---|---|---|---|
+| iio | any sensors | https://lore.kernel.org/rust-for-linux/2023061940-kindling-lagoon-3054@gregkh/ | IIO gets a ton of new drivers. There are lots of small ICs that fit this category and do not yet have C drivers. |
 | phy | Microchip VSC825{4,6,7,8} phy driver |  | Open a Zulip topic and tag Shashwat and Trevor if interested (or email the list) |
 | phy | other phys |  | Any phys that are not yet supported by the kernel may be willing to accept Rust drivers |
 | tc | write tc actions | https://lore.kernel.org/rust-for-linux/CALNs47v8x8RsV=EOKQnsL3RFycbY9asrq9bBV5z-sLjYYy+AVw@mail.gmail.com/ | Traffic control expressed some interest in using Rust and suggested actions as a place to start (see the lore link) |
