@@ -43,7 +43,7 @@ issues are welcome if you notice something out of sync.
 
 | Target Area | Status | Author | Git Link | Mailing List Link | Base |
 |---|---|---|---|---|---|
-| AArch64 support | review | Jamie C. | | https://lore.kernel.org/rust-for-linux/20231020155056.3495121-1-Jamie.Cunliffe@arm.com/ | |
+| AArch64 support | merged | Jamie C. | | https://lore.kernel.org/rust-for-linux/20231020155056.3495121-1-Jamie.Cunliffe@arm.com/ | merged |
 | Loongarch support | merged | Rui W. | | https://lore.kernel.org/rust-for-linux/20240108032117.215171-1-wangrui@loongson.cn/ | merged |
 | RISC-V support | review | Conor D. | | https://lore.kernel.org/rust-for-linux/20230307102441.94417-1-conor.dooley@microchip.com/ | |
 | x86_64 support | merged | | | | merged |
