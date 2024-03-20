@@ -59,7 +59,7 @@ issues are welcome if you notice something out of sync.
 | dma | testing | Tomo F. | https://github.com/Rust-for-Linux/linux/pull/901 | | `rust` |
 | drm | RFC | Lina | | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ | `6.3-rc1` |
 | drm-asahi (apple Si) | RFC | Lina, Alyssa R. | https://github.com/AsahiLinux/linux/tree/asahi/drivers/gpu/drm/asahi | https://lore.kernel.org/rust-for-linux/20230307-rust-drm-v1-0-917ff5bc80a8@asahilina.net/ (in links) | `6.6` |
-| drm-nova (nouveau rewrite) | experimental | Danilo K., Dave A. | https://gitlab.freedesktop.org/dakr/nova | | |
+| drm-nova (nouveau rewrite) | experimental | Danilo K., Dave A. | https://gitlab.freedesktop.org/dakr/nova | https://lore.kernel.org/rust-for-linux/Zfsj0_tb-0-tNrJy@cassiopeiae/ | |
 | drm-panel, drm-dsi | experimental | Fabien P. | https://github.com/Fabo/linux/tree/fparent/rust-truly-r63350 | | `rust-dev` |
 | ethernet | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1014 | | `rust` |
 | file, misc | RFC | Alice R., Wedson AF. | | https://lore.kernel.org/rust-for-linux/20230720152820.3566078-1-aliceryhl@google.com/ | `rust-next` |
