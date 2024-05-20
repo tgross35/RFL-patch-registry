@@ -73,6 +73,7 @@ issues are welcome if you notice something out of sync.
 | io_resource | testing | Maciej F. | https://github.com/Rust-for-Linux/linux/pull/682 | | `rust` |
 | ioctrl | merged | | https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/rust/kernel/ioctl.rs | | merged |
 | jiffies | testing | Maria C. | https://github.com/Rust-for-Linux/linux/pull/982 | | `rust` |
+| (rv)kms | rfc | Lyude Paul | | https://lore.kernel.org/rust-for-linux/20240322221305.1403600-1-lyude@redhat.com/ | |
 | kuid | review | Alice R. | | https://lore.kernel.org/rust-for-linux/20240202-alice-file-v4-7-fc9c2080663b@google.com/ | |
 | mm | | Alice R., Wedson AF. | https://github.com/Darksonn/linux/commit/7ba95d4fc5a8442ef5eb428b64109116717f7e47 | | |
 | napi | testing | Amélie | https://github.com/Rust-for-Linux/linux/pull/1018 | | `rust` |
