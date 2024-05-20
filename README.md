@@ -101,6 +101,7 @@ issues are welcome if you notice something out of sync.
 | tarfs | testing | Wedson AF. | https://github.com/Rust-for-Linux/linux/pull/1037 | | `rust-next` |
 | task | merged | | https://elixir.bootlin.com/linux/v6.4/source/rust/kernel/task.rs | | merged |
 | timer | testing | Maria C. | https://github.com/Rust-for-Linux/linux/pull/982 | | `rust` |
+| hrtimer | review | Andreas H. | | https://lore.kernel.org/rust-for-linux/20240425094634.262674-1-nmi@metaspace.dk/ |  |
 | thread | testing | Boqun F. | https://github.com/Rust-for-Linux/linux/pull/109 | | `rust` |
 | usb | testing | Martin RR. | https://github.com/Rust-for-Linux/linux/pull/884 | | `rust` |
 | user-ptr/uaccess | review | Alice R. | | https://lore.kernel.org/rust-for-linux/20240418-alice-mm-v6-0-cb8f3e5d688f@google.com/ | |
