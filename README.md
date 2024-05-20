@@ -45,7 +45,7 @@ issues are welcome if you notice something out of sync.
 |---|---|---|---|---|---|
 | AArch64 support | merged | Jamie C. | | https://lore.kernel.org/rust-for-linux/20231020155056.3495121-1-Jamie.Cunliffe@arm.com/ | merged |
 | Loongarch support | merged | Rui W. | | https://lore.kernel.org/rust-for-linux/20240108032117.215171-1-wangrui@loongson.cn/ | merged |
-| RISC-V support | review | Conor D. | | https://lore.kernel.org/rust-for-linux/20230307102441.94417-1-conor.dooley@microchip.com/ | |
+| RISC-V support | review | Conor D. | | https://lore.kernel.org/rust-for-linux/20240409-unsaddle-skittle-c93eb77732bb@spud/T/#mcc65b9542b54f1813a490fe374cf2333adcc4ec3 | merged |
 | x86_64 support | merged | | | | merged |
 | condvar | merged | | https://elixir.bootlin.com/linux/v6.4/source/rust/kernel/sync/condvar.rs | | merged |
 | cred | review | Alice R. | | https://lore.kernel.org/rust-for-linux/20240202-alice-file-v4-4-fc9c2080663b@google.com/ | |
