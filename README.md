@@ -67,6 +67,7 @@ issues are welcome if you notice something out of sync.
 | fwnode | testing | Vinay V. | https://github.com/Rust-for-Linux/linux/pull/925 | | `rust` |
 | gpiod/consumer | experimental | Fabien P. | https://github.com/Fabo/linux/commit/bb525ee7ae4fc0b352442a4853f41d213edd5d30 | | `rust-dev` |
 | gfp/highmem/page | review | Alice R. | | https://lore.kernel.org/rust-for-linux/20240418-alice-mm-v6-0-cb8f3e5d688f@google.com/ | |
+| hid | experimental | Rahul R. | https://github.com/Binary-Eater/linux/tree/rust-hid | | `rust-next` |
 | i2c | testing | Finn B. | https://github.com/Rust-for-Linux/linux/pull/946 | | `rust` |
 | i2c | experimental | Fabien P. | https://github.com/Fabo/linux/tree/fparent/rust-i2c | | `rust-next` |
 | io_pgtable | testing | Lina | https://github.com/Rust-for-Linux/linux/pull/952/commits/f476b2b052165a40eed0a8fcb86b56f794ee62d8 | | `rust-next` |
